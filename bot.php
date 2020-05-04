@@ -6,8 +6,6 @@
 
   $admin_id = '[ДАННЫЕ УДАЛЕНЫ]';
 
-  //'https://api.telegram.org/bot830536056:AAHfQhBjQ-J6BRKN8AuGOnJeQiZH3u5txUo/setWebhook?url=bot.alxcdn.ru/kmb_830536056:AAHfQhBjQ-J6BRKN8AuGOnJeQiZH3u5txUo/bot.php'
-
   function api($url, $method, $data, $json=false){
       $data=http_build_query($data);
       $method=mb_strtolower($method);
